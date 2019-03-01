@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>See Your Med Cost</title>
+    <meta name="seemedcosts" content="See how much other
+    people paid for the same procedure in the same city!"/>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="header">
+      <input type="image" src="WJ Medica.jpg" name="Logo of SeeYourMedCost" height="70" width="150" id="logo"/>
+      <div class="buttons">
+        <a href="" id="mission-button">Mission</a>
+        <a href="" id="contribute-button">Contribute</a>
+        <a href="" id="contact-button">Contact Us</a>
+      </div>
+    </div>
+
+    <div class="main-body">
+      <h1 id="main-title">Find out how much others are paying for your operation</h1>
+      <div id="input">
+        <div class="input-title">
+          <h3 class="input-titles">Procedure</h3>
+          <input type="text" class="textbox" placeholder="Procedure" id="procedure" autocomplete="on"/>
+        </div>
+
+        <!-- <div class="input-city">
+          <h3 class="input-titles">City</h3>
+          <input type="text" class="textbox" placeholder="City" id="city-box" autocomplete="on"/>
+        </div>
+
+        <div class="input-state">
+          <h3 class="input-titles">State</h3>
+          <input type="text" class="textbox" placeholder="State" id="state-box" autocomplete="on"/>
+        </div> -->
+        <div class="input-zip">
+          <h3 class="input-titles" id="zip-code">Zip Code</h3>
+          <input type="text" class="textbox" placeholder="Zip Code" id="zip-code-box" autocomplete="on"/>
+        </div>
+
+        <!-- <div class="input-insurance">
+          <h3 class="input-titles">Insurance</h3>
+          <select id="insurance" class="textbox">
+            <option value="All Companies">All Companies</option>
+          </select>
+        </div> -->
+
+        <input type="submit" value="Find my cost" id="go-button"/>
+      </div>
+    </div>
+
+    <h1 id="how-it-works">How It Works</h1>
+    <div id="help-bar">
+      <div class="help">
+        <h2>Search</h2>
+        <p>Type in your procedure and zip code then hit Find My Cost!</p>
+      </div>
+
+      <div class="help">
+        <h2>Find</h2>
+        <p>Discover the lowest price at a hospital near you</p>
+      </div>
+
+      <div class="help">
+        <h2>Go</h2>
+        <p>Visit the hospital and get your treatment now</p>
+      </div>
+    </div>
+
+    <div id="get-data">
+      <h1>How We Get The Data</h1>
+      <p>The Centers for Medicare & Medicaid Services (CMS) now, since 1 January
+      2019, requires hospitals to post their prices for standard charges and
+      update them at least once a year. To further improve price transparency
+      for patients, the hospitals must post them online for easier access.</p>
+      <cite>For further reading: <a id="link" href="https://s3.amazonaws.com/public-inspection.federalregister.gov/2018-08705.pdf">
+        https://s3.amazonaws.com/public-inspection.federalregister.gov/2018-08705.pdf</a></cite>
+    </div>
+
+  </body>
+
+</html>
